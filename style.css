@@ -1,0 +1,82 @@
+.row {
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 300px) { /* For mobile phones: */
+.col-s-1 {width: 8.33%; text-align: center}
+.col-s-4 {width: 33%; text-align: center}
+.col-s-12 {width: 100%; text-align: center}
+}
+@media only screen and (min-width: 300px) { /* For laptops and desktops: */
+.col-l-1 {width: 8.33%; text-align: center}
+.col-l-4 {width: 33%; text-align: center}
+.col-l-12 {width: 100%; text-align: center}
+}
+
+
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0373fc;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.name {
+    font-family: "Impact", sans-serif;
+    font-size: 40px;
+    color: pink
+
+}
+
+.menu-title{
+    font-family: "Impact", sans-serif;
+    font-size: 30px;
+    color: #cc6aa5
+}
+
+.page-title{
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: pink
+}
+
+.menu-item{
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #cc6aa5
+}
+
+.menu-d{
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: grey
+}
+
+.info{
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: grey
+}
+
+.info-b{
+    font-family: "Courier New", 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: #cc6aa5
+}
+
+img {
+  width: 100%;
+}
